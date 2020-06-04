@@ -10,17 +10,36 @@
     <body>
       
       <div class="container">
+        <h1>Find out your Voting Information!</h1>
+        <form id="formVote">
+          <div id="form-group">
+            <label for="voting">write your age</label>
+            <input id="voting" type="text" class="form-control">
+          </div>
+          <button type="submit" class="btn">submit</button>
+        </form>
+        <div class="output">
 
-        <div id="vote-age">
-          <h2>Congratulations! You are old enough to Vote!</h2>
-          <p>Please see the resources listed below to find out if you are registered/how to register and to find more information about your locale elections: </p>
+          
+          <div id="vote-age">
+            <h2>Congratulations! You are old enough to Vote!</h2>
+            <p>Please see the resources listed below to find out if you are registered/how to register and to find more information about your locale elections: </p>
+            <ul>
+              <li><a href="https://www.usa.gov/register-to-vote">Click here to find out how to register!</a></li>
+              <li><a href="https://www.headcount.org/find-your-polling-place/">Find your local polling center.</a></li>
+              <li><a href="https://sos.oregon.gov/voting-elections/Pages/default.aspx">Click here</a> for Oregon election services (upcoming elections, registrations, absentee ballots)</li>
+            </ul>
+          </div>
+          <div id="minor">
+            <h2>Unfortunately, you are uneligible to Vote!</h2>
+            <p>Please see the resources listed below so you better understand how to become civically engaged: </p>
+            <ul>
+              <li><a href="https://www.headcount.org/think-youre-young-register/">Think you are too young to register?</a></li>
+              <li><a href="https://www.rockthevote.org/programs-and-partner-resources/">Find classes and resources near you with Rock the Vote!</a></li>
+            </ul>
+          </div>
         </div>
-
-        <div id="minor">
-          <h2>Unfortunately, you are uneligible to Vote!</h2>
-          <P>Please see the resources listed below so you better understand how to become civically engaged: </P>
+          
         </div>
-
-      </div>
-    </body>
+      </body>
   </html>
